@@ -17,11 +17,14 @@ body, ul, h1, h2, h3, p, button, a, div{
   letter-spacing: 2px;
   list-style-type: none;
   text-decoration: none;
+  position: relative;
 }
 body{
-  background: rgb(100,0,123);
-  background: radial-gradient(circle, rgba(100,0,123,1) 0%, rgba(62,20,86,1) 100%);
+  background: rgb(89, 200, 211);
+  background: radial-gradient(circle, rgb(54, 157, 216) 0%, rgb(65, 218, 232) 100%);
   overflow: hidden;
+  -webkit-user-drag: none;
+  user-select: none;
 }
 button{
   color: white;
@@ -64,13 +67,28 @@ header h1{
   padding-bottom: 10px;
 }
 header .pizza-svg {
-  width: 80px;
+  width: 500px;
   overflow: visible;
   stroke: #fff;
   stroke-width: 4;
   stroke-linejoin: round;
   stroke-linecap: round;
 }
+#chef {
+	width: 80px;
+  height: auto;
+  fill: white;
+  overflow: visible;
+  stroke: #fff;
+  stroke-width: 1;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+.logo {
+  position: relative;
+  flex-grow: 0;
+}
+
 
 /* lists */
 li span.active{
@@ -140,4 +158,17 @@ li span.active::before{
   margin: 40px auto;
   border-radius: 50%;
   background: #fff;
+}
+#pizza-svg {
+  display: block;
+  position: absolute;
+	/*left: 50%;*/
+  /*transform: translate(-50%);*/
+  fill: white;
+  height: 100px;
+  width: 100px;
+  opacity: 0.7;
+}
+#pizza-svg:hover {
+  fill: red;
 }

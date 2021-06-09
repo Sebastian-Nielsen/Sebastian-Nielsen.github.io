@@ -1,7 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { motion } from "framer-motion"
-import Loader from "./loader";
+// import Loader from "./loader";
+import Pizza from "../pizza";
 
 const buttonVariants = {
   whileHover: {
@@ -21,13 +22,27 @@ const containerVariants = {
   },
   animate: {
     opacity: 1,
-    transition: { delay: 1.5, duration: 1.5 }
+    transition: {
+      // delay: 1.5,
+      // duration: 1.5
+      duration: 0.5
+    }
   },
   exit: {
     x: "-100vw",
     transition: { ease: 'easeInOut' }
   }
 };
+
+// const pizzaExitVariant = {
+//   initial: {
+//     opacity: 0
+//   },
+//   exit: {
+//     opacity: 1,
+//     scale: 2
+//   }
+// }
 
 const Home = () => {
   return (
@@ -38,7 +53,8 @@ const Home = () => {
                   exit="exit"
       >
         <h2>
-          Welcome to Pizza Joint
+          {/*<Pizza pizzaExitVariant={pizzaExitVariant}/>*/}
+          Welcome to Pizza Hub
         </h2>
         <Link to="/base">
           <motion.button
@@ -48,7 +64,6 @@ const Home = () => {
             Create Your Pizza
           </motion.button>
         </Link>
-      <Loader/>
       </motion.div>
   )
 }
