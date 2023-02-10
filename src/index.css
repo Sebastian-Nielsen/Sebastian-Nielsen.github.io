@@ -20,8 +20,9 @@ body, ul, h1, h2, h3, p, button, a, div{
   position: relative;
 }
 body{
-  background: rgb(89, 200, 211);
-  background: radial-gradient(circle, rgb(54, 157, 216) 0%, rgb(65, 218, 232) 100%);
+  background: rgb(54, 157, 216);
+  /*background: rgb(89, 200, 211);*/
+  /*background: radial-gradient(circle, rgb(54, 157, 216) 0%, rgb(65, 218, 232) 100%);*/
   overflow: hidden;
   -webkit-user-drag: none;
   user-select: none;
