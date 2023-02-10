@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/pizza-hub/static/css/main.c42a01cd.chunk.css",
+    "main.js": "/pizza-hub/static/js/main.be754c23.chunk.js",
+    "main.js.map": "/pizza-hub/static/js/main.be754c23.chunk.js.map",
+    "runtime-main.js": "/pizza-hub/static/js/runtime-main.5a4e3587.js",
+    "runtime-main.js.map": "/pizza-hub/static/js/runtime-main.5a4e3587.js.map",
+    "static/js/2.c637e061.chunk.js": "/pizza-hub/static/js/2.c637e061.chunk.js",
+    "static/js/2.c637e061.chunk.js.map": "/pizza-hub/static/js/2.c637e061.chunk.js.map",
+    "index.html": "/pizza-hub/index.html",
+    "static/css/main.c42a01cd.chunk.css.map": "/pizza-hub/static/css/main.c42a01cd.chunk.css.map",
+    "static/js/2.c637e061.chunk.js.LICENSE.txt": "/pizza-hub/static/js/2.c637e061.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/pizza-hub/static/media/Quicksand-Light.d9866972.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5a4e3587.js",
+    "static/js/2.c637e061.chunk.js",
+    "static/css/main.c42a01cd.chunk.css",
+    "static/js/main.be754c23.chunk.js"
+  ]
+}
